@@ -2,7 +2,7 @@ function convertTo24HourFormat(timeString) {
 
   // Extract hours and meridiem from the time string
   var hours = parseInt(timeString);
-  var meridiem = timeString.substr(-2);
+  var meridiem = timeString.substring(timeString.length - 2);
 
   // Adjust hours based on meridiem (AM or PM)
   if (meridiem === "PM" && hours !== 12) {
@@ -16,6 +16,7 @@ function convertTo24HourFormat(timeString) {
 }
 
 
+
 $(document).ready(function() {
   // Get the current hour
   var currentHour = moment().hour();
@@ -26,7 +27,7 @@ $(document).ready(function() {
   ];
 
   // Create hour blocks dynamically
-  for (var i = 0; i <= workHours.length; i++) {
+  for (var i = 0; i < workHours.length; i++) {
 
     // Access the index i of workHours list to turn it into a 24H format Int
     var workHoursIn24Hour = convertTo24HourFormat(workHours[i]);
