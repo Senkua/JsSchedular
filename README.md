@@ -2,7 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - I made this website in hopes of aiding those in need and myself of some proper time management for the workday! 
 - I built this project to further understand Javascript and to really get behind the logistics as well as to learn how to leverage local storage!
