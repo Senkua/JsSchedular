@@ -19,6 +19,7 @@ In order to use the schedular, visit the deployed website at: https://senkua.git
 Type in your plans for the hour in a text box, 
 Then click on the blue save icon.
 Refresh the page or leave and come back and it will still be there! 
+present timeblock is red, past timeblock is grey and future timeblock is green! It will always adjust based on your timezone.
 
 ## Credits
 
